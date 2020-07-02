@@ -39,7 +39,7 @@ def setup():
 
 def draw(): # mouseClicked nie zadziała bez draw
     pass
-    
+    #d
 def mouseClicked():
     for pet in list_of_pets:
         pet.speak() # dla różnych typów (Cat, Dog) klas wywołujemy to samo polecenie jedną linijką - to właśnie przejaw polimorfizmu
